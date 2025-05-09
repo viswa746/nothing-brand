@@ -1,0 +1,324 @@
+.headline{
+  height: 50px;
+  width: 5000px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+.header-endline{
+  height: 1px;
+  width: 5000px;
+  background-color: black;
+  margin-top: 0px;
+}
+.header{
+  display: flex;
+  flex-direction:row;
+  border: 1px;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 0px;
+  background-color:black;
+  padding-top: 0px;
+  }
+  
+  .container-1{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 80px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+    margin-top: 5px;
+    transition: 0.4s;
+    margin-left: 300px;
+    align-items: last baseline;
+  }
+ .one{
+  text-align: center;
+  display: flex;
+  color: white;
+  background-color:black;
+  margin-left :30px; 
+  margin-right: 45px;
+  padding-right: 30px;
+ }
+ .two{
+  color: white;
+  background-color: black;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+ }
+ .three,ad{
+  color: white;
+  background-color: black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  
+ }
+ .four{
+  color:white;
+  background-color:black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+ }
+ .five{
+  color:white;
+  background-color:black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+ }
+ .six{
+  color:white;
+  background-color: black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+ }
+ .seven{
+  color:white;
+  background-color:black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+ }
+ .eight{
+  color:white;
+  background-color:black;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: 35px;
+ }
+
+ .body{
+  font-family: 'Courier New', Courier, monospace;
+ }
+
+ .img7{
+  object-fit:fill;
+  background-color: #333;
+  transition: color 0.3s;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  transform: scale(2);
+ }
+ .img7:hover{
+  color: #605f5f;
+ }
+
+ .img3{
+  margin-top: 5px;
+  transition: color 3s;
+ }
+ .img3:hover{
+  color: #605f5f;
+ }
+ .img5{
+  margin-bottom: 0px;
+ }
+
+ .container{
+  margin-top: 0px;
+  border: none;
+ }
+ .nav-list a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+.nav-list a:hover {
+  color: #ccc;
+}
+.section {
+  padding: 2rem 0;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about {
+  background: #f9f9f9;
+}
+
+.products {
+  background:#fff;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  background: #f4f4f4;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  background:white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #000;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #333;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.line1{
+  width: 1000px;
+  height: 3px;
+  color: #000;
+}
+.lbutton{
+  padding: 7px;
+  border-radius: 25px;
+  color: white;
+  background-color: #101010;
+  margin-bottom: 15px;
+}
+.dropdown-options {
+  position: absolute;
+  top: 80px; /* adjust depending on header height */
+  right: 20px;
+  background-color: #111;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+  padding: 10px 0;
+  width: 200px;
+}
+
+.dropdown-options ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-options li {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.dropdown-options li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-options li a:hover {
+  background-color: #222;
+}
+ .header {
+      display: flex;
+      gap: 20px;
+      background-color: #111;
+      padding: 10px;
+      color: white;
+      position: relative;
+    }
+
+    .nav-item {
+      position: relative;
+      cursor: pointer;
+      padding-right: 90px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      background-color: #222;
+      padding: 10px;
+      z-index: 100;
+      min-width: 150px;
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown a:hover {
+      background-color: #333;
+    }
+
+    .nav-item:hover .dropdown {
+      display: block;
+      padding: 20px;
+      padding-right: 50px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .one {
+      margin-right: auto;
+    }
